@@ -1,0 +1,41 @@
+.header {
+    background-color: #e0e0db;
+    padding: 10px 0;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  .navbar{
+    display: block;
+    padding: 10px;
+  }
+  
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .navbar a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .navbar-toggle {
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    display: none;
+  }
+  
+  
